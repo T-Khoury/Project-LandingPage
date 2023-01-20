@@ -27,6 +27,10 @@
     
 }
 
+.image {
+    display: flex;
+}
+
 .media {
     display: flex;
     flex-direction: row;
@@ -34,6 +38,7 @@
     margin: 0;
     justify-content: center;
     margin-bottom: 86px;
+    gap: 30px;
     
 }
 .section-three {
@@ -117,12 +122,9 @@
     text-align: center;
     padding: 10px;
     flex: 1;
-    max-width: 250px;
+    max-width: 156px;
     color: #585a5e;
-    
-    
-    
-    
+
 }
 
 .image img {
@@ -131,6 +133,12 @@
     border: #3882F6;
     border-radius: 10px;
     border-style: solid;
+    align-self: center;
+}
+
+.image .content {
+    justify-content: center;
+    width: auto;
 }
 
 .text p {
@@ -156,7 +164,7 @@
 }
 
 .section-two .content p {
-    margin: 0 auto;
+    margin: 0;
     width: 150px;
 }
 
