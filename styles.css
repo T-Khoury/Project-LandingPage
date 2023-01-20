@@ -39,22 +39,34 @@
 .section-three {
     background-color: #E5E7EB;
     padding: 80px 150px 80px 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
+    max-width: 850px;
+    
 }
 
 .author {
-    align-self: flex-end;
+    justify-self: flex-end;
+    margin-right: 50px;
 }
 
 .quote p {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-style: italic;
-    color: #1F2937
+    color: #1F2937;
+}
+
+.quote .author {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    align-self: flex-end;
 }
 
 .media .image {
